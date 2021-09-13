@@ -8,27 +8,24 @@
     <TargetFrameworks Condition=" '$(OS)' == 'Windows_NT' ">net461;netstandard2.0;netstandard2.1</TargetFrameworks>
     <TargetFrameworks Condition=" '$(OS)' != 'Windows_NT' ">netstandard2.0;netstandard2.1</TargetFrameworks>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <Version>3.0.2</Version>
-    <RepositoryUrl>https://github.com/Discord-Net-Labs/Discord.Net-Labs</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/Discord-Net-Labs/Discord.Net-Labs</PackageProjectUrl>
-    <PackageIcon>Temporary.png</PackageIcon>
+    <RepositoryUrl>https://github.com/louistio/Discord.Net-Labs/</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/louistio/Discord.Net-Labs/</PackageProjectUrl>
+    <PackageIcon>PackageLogo.png</PackageIcon>
     <PackageId>Discord.Net.Labs.WebSocket</PackageId>
   </PropertyGroup>
   <PropertyGroup>
     <DocumentationFile>..\Discord.Net.WebSocket\Discord.Net.WebSocket.xml</DocumentationFile>
-    <AssemblyVersion>3.0.2</AssemblyVersion>
-    <FileVersion>3.0.2</FileVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>TRACE</DefineConstants>
   </PropertyGroup>
-  
+
   <ItemGroup>
     <ProjectReference Include="..\Discord.Net.Core\Discord.Net.Core.csproj" />
     <ProjectReference Include="..\Discord.Net.Rest\Discord.Net.Rest.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\..\..\..\Downloads\Temporary.png">
+    <None Include="..\..\docs\marketing\logo\PackageLogo.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>

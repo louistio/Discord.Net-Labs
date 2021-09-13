@@ -7,13 +7,10 @@
     <Description>A core Discord.Net Labs library containing the REST client and models.</Description>
     <TargetFrameworks Condition=" '$(OS)' == 'Windows_NT' ">net461;netstandard2.0;netstandard2.1</TargetFrameworks>
     <TargetFrameworks Condition=" '$(OS)' != 'Windows_NT' ">netstandard2.0;netstandard2.1</TargetFrameworks>
-    <PackageIcon>Temporary.png</PackageIcon>
-    <PackageProjectUrl>https://github.com/Discord-Net-Labs/Discord.Net-Labs</PackageProjectUrl>
-    <Version>3.0.1</Version>
+    <PackageIcon>PackageLogo.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/louistio/Discord.Net-Labs/</PackageProjectUrl>
     <PackageId>Discord.Net.Labs.Rest</PackageId>
-    <RepositoryUrl>https://github.com/Discord-Net-Labs/Discord.Net-Labs</RepositoryUrl>
-    <AssemblyVersion>3.0.1</AssemblyVersion>
-    <FileVersion>3.0.1</FileVersion>
+    <RepositoryUrl>https://github.com/louistio/Discord.Net-Labs/</RepositoryUrl>
   </PropertyGroup>
   <PropertyGroup>
     <DocumentationFile>..\Discord.Net.Rest\Discord.Net.Rest.xml</DocumentationFile>
@@ -25,7 +22,7 @@
     <Reference Include="System.Net.Http" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\..\..\..\Downloads\Temporary.png">
+    <None Include="..\..\docs\marketing\logo\PackageLogo.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
